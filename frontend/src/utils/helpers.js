@@ -5,7 +5,7 @@ export const API_ORIGIN = (
 // Food/restaurant images are stored as filenames and served from /uploads/<filename>
 export const getImageUrl = (image, fallback = "/food-placeholder.svg") => {
     if (!image) return fallback;
-    if (image.startsWith("http://") || image.startsWith("https://")) {
+    if (image.endsWith(".jpg")) {
         return image;
     }
     return `${API_ORIGIN}/uploads/${image}`;
