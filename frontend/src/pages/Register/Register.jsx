@@ -13,7 +13,6 @@ function Register() {
         email: "",
         password: "",
         phone: "",
-        role: "customer"
     });
 
     const handleChange = (event) => {
@@ -84,15 +83,7 @@ function Register() {
                     onChange={handleChange}
                 />
 
-                <label className="role-label">I want to</label>
-                <select
-                    name="role"
-                    value={formData.role}
-                    onChange={handleChange}
-                >
-                    <option value="customer">Order food (Customer)</option>
-                    <option value="owner">Sell food (Restaurant Owner)</option>
-                </select>
+                
 
                 <button type="submit" disabled={loading}>
                     {loading ? "Registering..." : "Register"}
