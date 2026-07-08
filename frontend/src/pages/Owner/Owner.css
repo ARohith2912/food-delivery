@@ -1,0 +1,313 @@
+.owner {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px 40px 60px;
+    text-align: left;
+}
+
+.restaurant-form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 500px;
+    background: white;
+    border: 1px solid #e5e4e7;
+    border-radius: 10px;
+    padding: 24px;
+}
+
+.restaurant-form input,
+.restaurant-form textarea {
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+.restaurant-form textarea {
+    min-height: 70px;
+}
+
+.form-actions {
+    display: flex;
+    gap: 10px;
+}
+
+.form-actions button {
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    background: #ff4d4f;
+    color: white;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background: #ccc !important;
+    color: #333 !important;
+}
+
+.owner-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.edit-info-btn {
+    padding: 10px 18px;
+    border: 1px solid #aa3bff;
+    background: transparent;
+    color: #aa3bff;
+    border-radius: 6px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.owner-tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #e5e4e7;
+}
+
+.owner-tabs button {
+    padding: 10px 20px;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    font-size: 16px;
+    border-bottom: 3px solid transparent;
+}
+
+.owner-tabs button.active {
+    border-bottom-color: #ff4d4f;
+    font-weight: 600;
+    color: #ff4d4f;
+}
+
+.owner-section {
+    margin-bottom: 40px;
+}
+
+.section-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.add-btn {
+    padding: 8px 16px;
+    background: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.inline-form {
+    display: flex;
+    gap: 10px;
+    margin: 12px 0;
+}
+
+.inline-form input {
+    flex: 1;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+.inline-form button {
+    padding: 10px 18px;
+    background: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.category-chip-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.category-chip {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #f5f5f5;
+    padding: 6px 12px;
+    border-radius: 20px;
+}
+
+.category-chip input {
+    padding: 4px 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.category-chip button {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+    color: #ff4d4f;
+    font-size: 13px;
+}
+
+.food-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 450px;
+    background: white;
+    border: 1px solid #e5e4e7;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 14px 0;
+}
+
+.food-form input,
+.food-form textarea,
+.food-form select {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-family: inherit;
+}
+
+.food-form button {
+    padding: 12px;
+    background: #ff4d4f;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.owner-food-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 18px;
+    margin-top: 14px;
+}
+
+.owner-food-card {
+    border: 1px solid #e5e4e7;
+    border-radius: 10px;
+    padding: 14px;
+    text-align: center;
+}
+
+.owner-food-card img {
+    width: 100%;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.availability.yes {
+    color: #198754;
+    font-weight: 600;
+}
+
+.availability.no {
+    color: #dc3545;
+    font-weight: 600;
+}
+
+.owner-food-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.owner-food-actions button {
+    padding: 6px 10px;
+    font-size: 13px;
+    border: 1px solid #ddd;
+    background: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.owner-order-card {
+    border: 1px solid #e5e4e7;
+    border-radius: 10px;
+    padding: 16px 20px;
+    margin-bottom: 16px;
+}
+
+.owner-order-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.order-link {
+    cursor: pointer;
+    color: #aa3bff;
+}
+
+.owner-order-actions {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.owner-order-actions select {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+}
+
+.empty-message {
+    color: #888;
+    padding: 10px 0;
+}
+
+.status {
+    padding: 4px 10px;
+    border-radius: 14px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.status.pending { background: #fff3cd; color: #856404; }
+.status.confirmed { background: #d1ecf1; color: #0c5460; }
+.status.preparing { background: #fde2c8; color: #8a4b00; }
+.status.out_for_delivery { background: #cfe2ff; color: #084298; }
+.status.delivered { background: #d4edda; color: #155724; }
+.status.cancelled { background: #f8d7da; color: #721c24; }
+
+.image-label {
+    font-size: 14px;
+    color: #666;
+    margin-top: -6px;
+}
+
+.current-image-preview {
+    width: 120px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.owner-header-info {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+}
+
+.owner-restaurant-thumb {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+}

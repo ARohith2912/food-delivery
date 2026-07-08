@@ -1,0 +1,113 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: #ff4d4f;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.logo {
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.nav-search input {
+    padding: 8px;
+    width: 220px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cart {
+    position: relative;
+    color: white;
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.cart-badge {
+    position: absolute;
+    top: -8px;
+    right: -10px;
+    background: #08060d;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    border-radius: 50%;
+    min-width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 4px;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.user-menu {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+.logout-link {
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.4);
+    color: white;
+    padding: 6px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.logout-link:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.nav-search {
+    display: flex;
+    gap: 6px;
+}
+
+.nav-search button {
+    background: rgba(255, 255, 255, 0.2);
+    border: none;
+    border-radius: 5px;
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
